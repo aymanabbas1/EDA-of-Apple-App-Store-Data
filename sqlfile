@@ -14,7 +14,7 @@ SELECT count(DISTINCT(id)) as UniqueAppIds
 from AppleStore
 
 SELECT count(DISTINCT(id)) as UniqueAppIds 
-from AppleStore
+from appleStore_description_combined
 ---- the numbers are same (7197)
 
 ---- check for any missing values in key fields
